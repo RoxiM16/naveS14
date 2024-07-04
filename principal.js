@@ -14,12 +14,12 @@ var juego = new Phaser.Game(450, window.innerHeight, Phaser.CANVAS, 'bloque_jueg
 var estadoPrincipal = {
     preload: function () {
         // Carga todos los recursos
-        juego.load.image('fondo', 'img/space.png');
-        juego.load.image('personaje', 'img/nave.png');
-        juego.load.image('laser', 'img/laser.png');
-        juego.load.image('enemigo', 'img/malo.png');
-        juego.load.audio('disparo', 'sonidos/disparo.mp3');
-        juego.load.audio('explosion', 'sonidos/explosion.mp3');
+        juego.load.image('fondo', '.img/space.png');
+        juego.load.image('personaje', '.img/nave.png');
+        juego.load.image('laser', '.img/laser.png');
+        juego.load.image('enemigo', '.img/malo.png');
+        juego.load.audio('disparo', '.sonidos/disparo.mp3');
+        juego.load.audio('explosion', '.sonidos/explosion.mp3');
     },
 
     create: function () {
